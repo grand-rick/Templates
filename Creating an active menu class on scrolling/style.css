@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    line-height: 1.5;
+}
+
+h1 {
+    cursor: pointer;
+}
+
+header {
+    padding: 30px 20px;
+    background-color: #ececec;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.main-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul.nav {
+    display: flex;
+    list-style-type: none;
+}
+
+li.nav-item {
+    padding: 5px 10px;
+    border: none;
+    display: inline-block;
+    transition: all linear 0.5s;
+    -webkit-transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -ms-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
+    margin-right: 20px;
+}
+
+a.nav-link {
+    text-decoration: none;
+    color: #111;
+    font-weight: 500;
+    padding: 5px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+section h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: 0.8;
+    color: #fff;
+    text-shadow: 5px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+#home {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+#about {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+#service {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+#price {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+#contact {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+
+.active {
+    background-color: orange;
+    display: inline-block;
+    padding: 5px;
+}
+
+
